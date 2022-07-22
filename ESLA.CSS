@@ -1,0 +1,25 @@
+body
+{
+    background-image: url("./pexels-lumn-167699.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.P1 
+{
+    position: absolute;
+    color:#222;
+    font-family:fantasy;
+    letter-spacing: 4PX;
+    margin-left:49%;
+    margin-top:10%;
+}
+.D {
+    background-color: #222;
+    margin-left: 43%;
+    margin-top: 17%;
+}
+@media (max-width:768px)
+{
+    .P1 {color: brown;}
+    .D {margin-left:30%;}
+}
